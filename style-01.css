@@ -108,10 +108,17 @@ hint: li:nth-child(odd)
 */
 
 /* 15. enter your code here */
+main .blue-box ul li:nth-child(odd){
+  color: #1d3557ff;
+  background-color: #f1faeeff;
 
+}
 /* Use psuedo classes to give the last list item (last child) within a list in main a completely different background colour
 */
-
+main .blue-box ul li:last-child {
+  color: #f5f5f5;
+  background-color: #1d3557ff;
+}
 /* 16. enter your code here */
 
 /*
